@@ -46,7 +46,7 @@ function play() {
         return
     }
     chance--
-    ListArray.push(USER_VALUE)
+    ListArray.push(USER_VALUE) // 중복된 숫자가 아니여야 입력
     chanceArea.textContent = `남은 기회 : ${chance}번`
     
     if(chance == 0) {
@@ -58,7 +58,7 @@ function play() {
 }
 
 function reset() {
-    randomNumber()
+    randomNumber() // 새로운 랜덤 숫자
     resultArea.textContent = "결과창"
     chance = 7
     chanceArea.textContent = `남은 기회 : ${chance}번`
