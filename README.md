@@ -3,6 +3,7 @@
 JavaScript를 이용한 간단한 Up-Down 게임
 
 ## [Preview] 
+<img src="./README_img/preview.png" width="80%">
 <br>
 
 ## [기능 구현] 
